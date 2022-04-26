@@ -1,3 +1,10 @@
+import Navigator from "../components/Navigator";
+
 export default function About() {
-  return 'About us'
+  return (
+    <>
+      <Navigator />
+      About us
+    </>
+  )
 }
