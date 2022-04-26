@@ -1,13 +1,13 @@
-import Link from "next/link";
+import Link from 'next/link'
 
 export default function Navigator() {
   return (
-    <nav>
+    <nav style={{margin:'0 -4px'}}>
       <Link href="/">
-        Home
+        <a className="link" style={{padding: '2px 4px'}}>Home</a>
       </Link>
-      <Link href="/">
-        About
+      <Link href="about">
+        <a className="link" style={{padding: '2px 4px'}}>About</a>
       </Link>
     </nav>
   )
